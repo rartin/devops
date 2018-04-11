@@ -1,4 +1,4 @@
-BINARY=word-cloud-generator
+BINARY=devops
 
 all: clean godep test build
 
@@ -18,7 +18,7 @@ run:
 	@go run main.go
 
 start-mac: build
-	./artifacts/osx/word-cloud-generator
+	./artifacts/osx/devops
 
 rice:
 	@rice embed-go
